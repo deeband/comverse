@@ -11,7 +11,5 @@ ABOUT COMVERSE
  Comverse Policy Studio 
  
  **1st** Ever Marketing-Oriented Policy Tool 
- [Learn More]
- http://github.com - automatic!
-[GitHub](http://github.com)
+[Learn More](http://github.com)
  
