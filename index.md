@@ -21,3 +21,9 @@ Managed Services World Congress September 18-19 Berlin,Germany
 
 [Read More](http://github.com)
 
+Comverse: Enabling a world Conected Possibilities
+
+[Watch now](http://github.com)
+
+# **What can we do for you?**
+
