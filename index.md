@@ -27,3 +27,24 @@ Comverse: Enabling a world Conected Possibilities
 
 # **What can we do for you?**
 
+
+    Data monetization
+    Machine to machine (M2M)
+    Over-the-top (OTT)
+    Cloud computing
+    Social Media
+    
+ [ See all of our solutions ](http://github.com)
+
+#**What's happening at Comverse?**
+
+News
+
+ Comverse Regains Lead in Convergent Charging Market 
+    [All News ](http://github.com)
+
+Events
+
+ Comverse Regains Lead in Convergent Charging Market 
+
+    [All Events ](http://github.com)
