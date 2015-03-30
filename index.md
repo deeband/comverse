@@ -41,10 +41,33 @@ Comverse: Enabling a world Conected Possibilities
 News
 
  Comverse Regains Lead in Convergent Charging Market 
-    [All News ](http://github.com)
+ [All News ](http://github.com)
 
 Events
 
  Comverse Regains Lead in Convergent Charging Market 
 
-    [All Events ](http://github.com)
+[All Events](http://github.com)
+
+Comverse Regains Lead in Convergent Charging Market 
+
+[All Events](http://github.com)
+
+#**Success Stories**
+
+
+
+  1.  "we have very good and very warm relations with Comverse. we always achievet..."
+
+  2.  comverse had demonstrted that they are partners, not just supplies, because they understand our needs, out situations together we are...
+
+  3.  "converse has been able to fully deliver what we want and we have peers..."
+
+[All 256 Success Stories](http://github.com)
+
+#**Latest blog posts**
+
+ 18 July - Comverse Regains Lead in Convergent Changing Market 
+ 
+#**Subscribe to Comverse**
+ 
