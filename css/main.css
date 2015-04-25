@@ -97,6 +97,301 @@ textarea {
 
 
 
+header{
+background-color: white;
+
+
+}
+
+header{
+color:black;
+}
+
+header a{
+text-decoration: none;
+color: black;
+}
+
+header a:hover{
+ text-decoration: underline;
+}
+
+.headlines{
+
+background-image :url("../img/slide-bg-complexity.jpg");
+
+background-size: cover;
+display:block;
+
+}
+
+.solutions{
+
+background-color: rgb(65, 162, 201);
+display:block;
+}
+
+.news{
+background-image :url("../img/news-and-events-bg.jpg");
+
+background-size: cover;
+	background-repeat: no-repeat;
+display:block;
+
+}
+
+
+
+a {
+ color: #fff;
+text-decoration: none;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.highlight{
+
+background-color: rgba(255,255,255,0.4);
+}
+
+.highlight[class$="footer"]{
+
+background-color: rgba(255,255,255,0.1);
+}
+.highlight .headline{
+color: rgb(78,167,211);
+
+}
+.date{
+color: white;
+display:block;
+width:30px;
+background-color: rgb(51,153,204);
+
+}
+.Subscribe-to-Comverse{
+background-color: rgba(255,255,255,0.2);
+display: block;
+height:2px;
+width: 200px;
+}
+.button[class$="signup"]{
+background-color: rgb(65,175,230);
+border-radius: 2px;
+width: 65px;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.button{
+background-color: rgb(42,148,202);
+color:white;
+ border-radius: 5px;
+width: 190px;
+display: block;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+
+
+.Success-Stories{
+color:black;
+background-color: rgb(236,236,236);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ * http://juicystudio.com/article/screen-readers-display-none.php
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
 
 
 
