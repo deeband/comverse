@@ -194,21 +194,17 @@ color:black;
 }
 
 .nav-side{
-    float: right;
-    font-size: 15px;
-    padding-top: 0;
-    display: inline-block;
-    color: #808080;
-    margin: 0 auto;
+      float:right;
+    display:inline-block;
+    padding-top:10px;
+    color:#a0a0a0;
 }
 
 .nav-side a{
-    color:#808080;
-    text-decoration: none;
-    display: inline-block;
-    padding-top: 10px;
-    padding-right: 80px;
-    margin: 0 auto;
+     text-decoration: none;
+    outline:0;
+    font-weight:200;
+    color:#a0a0a0;
 
 }
 .nav-side a:hover{
@@ -222,9 +218,37 @@ color:black;
 
 }
 
+.search input {
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height:20px;
+    outline: none;
+    padding-left: 5px;
+    display: inline-block;
+    width: 140px;
+}
+
+.search button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display:inline-block;
+    position:relative;
+    right:33px;
+    top:-1px;
+}
+.search button img {
+width:20px;
+height:20px;
+}
+
+
 .headlines{
     padding:0;
     margin: 0 auto;
+	    max-width: 960px;
+
 }
 
 .header-what {
@@ -232,7 +256,6 @@ color:black;
   margin: 0 auto;
   padding-top: 20px;
 }
-
 
 .section-banner{
     padding-top: 75px;
@@ -307,7 +330,6 @@ color:black;
 .cube-title{
   padding: 0;
   height: 100px;
-  width:220px;
   margin-top: 0;
   color: #FFFFFF;
   font-weight: normal;
@@ -326,6 +348,9 @@ color:black;
   opacity: 0.80;
 }
 
+#selected{
+  background-color: #3498db;
+}
 
 .more-btn {
   font-family: arial;
@@ -367,18 +392,6 @@ color:black;
   padding-top: 10px;
 }
 
-.section-banner {
-  padding: 0;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.section-banner{
-background-image :url("../img/slide-bg-complexity.jpg");
-background-size: cover;
-display:block;
-
-}
 
 
 .solutions{
@@ -460,15 +473,154 @@ display:block;
   background: url(../img/solution_icon_diti-cx_hover.png) no-repeat left;
 }
 
-.news{
-background-image :url("../img/news-and-events-bg.jpg");
-
-background-size: cover;
-	background-repeat: no-repeat;
-display:block;
-
+h1{
+  padding: 5px;
 }
 
+.news{
+    padding:0;
+    margin: 0 auto;
+}
+
+.section-events{
+  background: url(../img/news-and-events-bg.jpg) no-repeat center;
+  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    height: 415px;
+}
+
+.event-headline{
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+.date-event{
+  width: 55px;
+  margin:5px;
+  padding:0;
+  float: left; 
+  text-align: center;
+}
+.another-day{
+  display: block;
+  font-size: 40px;
+  font-weight: normal;
+  width: 55px;
+  text-align: center;
+}
+.another-month{
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+  width: 55px;
+  text-align: center;
+}
+.all-events > span:before{
+  content:"";
+  background: url(../img/eventListIconEvents.png) no-repeat;
+  display: block;
+  float: left;
+  height: 25px;
+  width: 25px;
+}
+.all-events > span:hover:before{
+  content: "";
+  background: url(../img/eventListIconEvents_hover.png) no-repeat;
+  display: block;
+  float: left;
+  height: 25px;
+  width: 25px;
+}
+
+.month{
+  display: block;
+  background-color: #6495ED; 
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.day{
+  display: block;
+  background-color: #6495ED;
+  border-bottom: 1px dashed #FFFFFF;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.event-list{
+  list-style-type: none;
+  padding: 0 0 40px 0;
+}
+.event-list a{
+  text-decoration: none;
+}
+
+.event-list > li{
+  width: 280px;
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  width: 25%;
+}
+.event-list > li article{
+  background-color: #FFDEFF;
+  opacity: 0.6;
+  height: 95px;
+}
+.event-list > li article:hover{
+  opacity: 1;
+}
+.event-list p{
+  color: black;
+  font-weight: normal;
+  padding: 11px;
+}
+
+
+.all{
+  color: #FFFFFF;
+}
+.all:hover{
+  color: #000000;
+}
+.all >span{
+  float: left;
+}
+.all-news > span:before{
+  content:"";
+  background: url(../img/eventListIconNews.png) no-repeat;
+  display: block;
+  float: left;
+  height: 25px;
+  width: 25px;
+}
+.all-news > span:hover:before{
+  content: "";
+  background: url(../img/eventListIconNews_hover.png) no-repeat; 
+  display: block;
+  float: left;
+  height: 25px;
+  width: 25px;
+}
+
+.event-headline{
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.section-events{
+  height: 700px;
+}
+.section-events h1{
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
 
 
 a {
@@ -499,6 +651,8 @@ background-color: rgba(255,255,255,0.1);
 color: rgb(78,167,211);
 
 }
+
+
 .date{
 color: white;
 display:block;
